@@ -69,16 +69,16 @@ body, html{
 }
 
 .pimg1{
-    background-image: url(../img/cafe.jpg);
+    background-image: url(https://unsplash.com/photos/3b2tADGAWnU/download?force=true&w=1920);
     min-height: 100%;
 }
 
 .pimg2{
-    background-image: url(../img/coffeeBags.jpg);
+    background-image: url(https://unsplash.com/photos/fIVD9x3JvDo/download?force=true);
     min-height: 400px;
 }
 .pimg3{
-    background-image: url(../img/pink.jpg);
+    background-image: url(https://unsplash.com/photos/L5cEmk3ucYY/download?force=true);
     min-height: 400px;
 }
 
@@ -126,6 +126,7 @@ body, html{
     background-color: beige;
 }
 
+
 .ptext .border{
     background-color: #111;
     color: azure;
@@ -157,6 +158,11 @@ body, html{
     margin-bottom: 10px;
 }
 
+footer{
+    background-color: rgba(105, 105, 105, 0.404);
+}
+
+
 .footer-left{
     flex: 3;
     color: azure;
@@ -172,17 +178,18 @@ body, html{
 .footer-middle{
     flex: 3;
     color: azure;
+    cursor: pointer;
 }
 .footer-middle span{
     position: relative;
     display: flex;
     flex-direction: column;
     margin-bottom: 5px;
-    cursor: pointer;
+    
 }
 
 .footer-right{
-    flex: 1;
+    flex: 2;
     color: azure;
 }
 
@@ -204,7 +211,6 @@ body, html{
     color: none;
     padding: 5px;
 }
-
 
 footer{
     display: flex;
